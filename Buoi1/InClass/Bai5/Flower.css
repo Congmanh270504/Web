@@ -1,0 +1,31 @@
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px groove black;
+    width: fit-content;
+    padding-inline: 12px;
+    margin-inline: auto;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.list {
+    font-size: x-large;
+}
+
+p {
+    text-align: center;
+    background-color: #C7B7A3;
+}
+
+#end {
+    color: purple;
+}
+.picture{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    height: 80px;
+}
