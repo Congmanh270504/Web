@@ -1,0 +1,43 @@
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    margin: auto;
+    width: 50em;
+    
+}
+
+.picture {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    padding-left: 7em;
+}
+
+h3{
+    margin-left: 1em;
+    font-size: x-large;
+}
+.list {
+    font-size: x-large;
+    line-height: 1.6;
+}
+
+#heading-img {
+    width: 30em;
+    height: 20em;
+    padding-left: 20em;
+}
+
+u {
+    color: red;
+    text-decoration-style: dashed;
+}
+
+.picture>img {
+    border: 0.5px solid black;
+    margin-inline: 0.5em;
+}
+
+li::marker {
+    color: red;
+}
