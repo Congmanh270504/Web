@@ -7,7 +7,7 @@ table {
 table,
 td,
 tr {
-    border: 2px solid black;
+    border: 3px solid black;
     border-collapse: collapse;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
@@ -21,6 +21,8 @@ h3 {
 
 .list {
     list-style: square;
+    list-style-image: url(favicon.ico);
+
 }
 
 a {
@@ -31,7 +33,4 @@ a {
 }
 image {
     align-items: center;
-}
-.list{
-    list-style-image: url(favicon.ico);
 }

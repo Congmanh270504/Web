@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.content {
+    border: 2px dotted red;
+    margin-inline: 1em;
+    padding-inline: 0.5em;
+    background-color: pink;
+}
