@@ -1,21 +1,23 @@
-img{
+img {
     margin-left: 22em;
     margin-top: 6em;
     position: relative;
 }
-.subject{
+
+.subject {
     border: 1px solid black;
     background-color: white;
     width: 6em;
     height: 3em;
-/* position: absolute; */
-    a{
-     border: 1px solid pink;
-    text-decoration: none;
-    margin-top: 1em;
-    display: flex;
-    width: fit-content;
-    margin-left: 0.5em;
-    background-color: pink;
+
+    a {
+        position: absolute;
+        border: 1px solid pink;
+        text-decoration: none;
+        margin-top: 1em;
+        display: flex;
+        width: fit-content;
+        margin-left: 0.5em;
+        background-color: pink;
     }
 }
