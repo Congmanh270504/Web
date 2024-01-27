@@ -1,0 +1,41 @@
+table,
+th,
+tr,
+td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: white;
+    height: 4em;
+}
+
+td {
+}
+
+table {
+}
+
+h2 {
+    font-weight: bold;
+    color: red;
+}
+
+.content {
+    margin: auto;
+    width: fit-content;
+    padding: 1em 2em;
+}
+
+#header1{
+    display: flex;
+    justify-content: right;
+    font-size: x-large;
+    color: white;
+}
+#header2{
+    font-size: xx-large;
+    color: red;
+    
+}
