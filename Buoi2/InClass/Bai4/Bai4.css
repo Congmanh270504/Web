@@ -1,7 +1,6 @@
 * {
     font-family: 'Times New Roman', Times, serif;
 }
-
 h1 {
     color: blue;
 }
@@ -21,7 +20,9 @@ h1 {
 .banner {
     width: fit-content;
 }
-
+.list{
+    line-height: 1.6;
+}
 .table1 {
 
     table,
@@ -52,6 +53,7 @@ h1 {
 
 .banner-end-left {
     margin: 1em;
+    margin-left: 0em;
     background-color: #747264;
     width: 39em;
 }

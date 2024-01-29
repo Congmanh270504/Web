@@ -5,7 +5,9 @@
         width: 17em;
     }
 }
-
+img{
+    width: 100%;
+}
 table {
     margin: auto;
 }
