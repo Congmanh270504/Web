@@ -3,7 +3,7 @@ body{
     grid-template-columns: auto auto auto auto;
     width: fit-content;
 }
-p,ul,iframe{
+iframe{
     border-right: 3px solid black ;
     height: 100%;
 }
