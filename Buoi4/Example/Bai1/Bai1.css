@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    background-color: gray;
+    height: 3em;
+    line-height: 2.7;
+    width: 26.7em;
+    padding: 0px;
+    text-align: center;
+}
+
+.header {
+    width: fit-content;
+    border: 2px solid black;
+    margin: auto;
+}
+
+input {
+    width: 53em;
+    height: 4em;
+}
+
+label,
+input {
+    margin: 0.5em 1em;
+}
+
+#e-mail {
+    margin-left: 2.7em;
+}
+
+.footer {
+    width: fit-content;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 1em;
+
+    #address {
+        margin-left: 34px;
+    }
+
+    .cities {
+        margin-left: 27px;
+    }
+    .dis{
+        margin-left: 46px;
+
+    }
+}

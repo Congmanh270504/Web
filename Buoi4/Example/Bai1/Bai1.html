@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bai1.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>thông tin ngưởi gửi</h1>
+        <form action="">
+            <label for="">*Người gửi</label>
+            <input type="text" placeholder="Nhập họ và tên"><br>
+            <label for="">*E-mail</label>
+            <input type="text" placeholder="Nhập E-mail" id="e-mail"><br>
+            <label for="">*Điện thoại</label>
+            <input type="text" placeholder="Nhập SĐT"><br>
+        </form>
+    </div>
+
+    <div class="footer">
+        <h1>thông tin ngưởi nhận</h1>
+        <form action="">
+            <label for="">*Người gửi</label>
+            <input type="text" placeholder="Nhập họ và tên"><br>
+            <label for="">*Điện thoại</label>
+            <input type="text" placeholder="Nhập SĐT"><br>
+            <label for="">*Địa chỉ</label>
+            <input type="text" placeholder="Nhập địa chỉ" id="address"><br>
+
+            <label for="">*Tỉnh/TP</label>
+            <input list="city" class="cities">
+            <datalist id="city">
+                <option value="TP.HCM">TP.HCM</option>
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="Đà Nẵng">Đà Nẵng</option>
+                <option value="Quảng Ninh">Quảng Ninh</option>
+                <option value="Cần Thơ">Cần Thơ</option>
+            </datalist> <br>
+            <label for="">*Quận</label>
+            <input list="district" class="dis">
+            <datalist id="district">
+                <option>Quận 1</option>
+                <option>Quận 2</option>
+                <option>Quận 3</option>
+                <option>Quận Tân Phú</option>
+                <option>Quận Tân Bình</option>
+                <option>Quận Thủ Đức</option>
+            </datalist>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
