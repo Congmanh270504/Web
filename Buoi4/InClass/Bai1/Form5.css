@@ -1,10 +1,9 @@
 .content {
     border: 2px solid black;
-    width: 50%;
     margin: auto;
     background: linear-gradient(to bottom, white, gray);
     font-family: 'Times New Roman', Times, serif;
-    height: 30vh;
+    width: 1000px;
 }
 
 h1 {
