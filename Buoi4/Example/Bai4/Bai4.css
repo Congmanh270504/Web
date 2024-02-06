@@ -1,0 +1,39 @@
+table,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    border: none;
+}
+
+th {
+    width: 60%;
+    padding: 10px;
+    background-color: aquamarine;
+    background: linear-gradient(to bottom, #CDFADB,#F6FDC3);
+}
+
+form {
+    text-align: center;
+}
+
+.no-border-input {
+    border: none;
+    outline: none;
+    text-align: left;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}

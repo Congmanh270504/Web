@@ -1,0 +1,62 @@
+.content {
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    background: linear-gradient(to bottom, white, gray);
+    font-family: 'Times New Roman', Times, serif;
+    height: 30vh;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+label,
+input {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+input {
+    margin-left: 9em;
+}
+
+#address,
+#habbit {
+    width: 70%;
+    height: 15vh;
+}
+
+#password {
+    margin-left: 11.85em;
+}
+
+#name {
+    margin-left: 13.1em;
+}
+
+#date {
+    margin-left: 11.7em;
+}
+
+#male {
+    margin-left: 12em;
+}
+
+#female {
+    margin-left: 3em;
+
+}
+
+#address {
+    margin-left: 13.5em;
+}
+
+#phone {
+    margin-left: 9.7em;
+}
+#habbit{
+    margin-left: 13em;
+
+}
