@@ -1,3 +1,8 @@
+#payment-header{
+    color: gray;
+    font-size: larger;
+    margin: 1em 0em 0em;
+}
 .content {
     line-height: 1.6em;
     box-sizing: border-box;
@@ -14,13 +19,17 @@
         accent-color: red;
     }
 
+    .home {
+        width: 23.9em;
+    }
+
     .truck {
+        width: 23.8em;
         margin-right: 1.16em;
     }
 
     .truck,
     .home {
-        width: 20%;
         text-align: center;
         padding: 10px 12px;
         background-color: #C7C8CC;
@@ -28,11 +37,10 @@
         border-radius: 10px;
     }
 
-
     .truck:hover,
     .home:hover {
         accent-color: red;
-        border: 2px solid red;
+        border: 1px solid red;
         border-radius: 10px;
         color: red;
     }
@@ -99,7 +107,7 @@
 .comment {
     fieldset {
         border-radius: 10px;
-        width: 42.3%;
+        width: 50em;
     }
 
     legend {
@@ -124,7 +132,33 @@
         border: 1px solid black;
         border-radius: 4px;
         padding: 5px;
-        margin-top: 1em;
-        margin-right: 2em;
+        margin: 1em 2em 0.5em;
+        accent-color: red;
+
+        label {
+            color: gray;
+        }
+    }
+
+    .devery:hover,
+    .atm:hover,
+    .credit-card:hover {
+        border: 1px solid red;
+        border-radius: 4px;
+
+        i {
+            color: red;
+        }
+    }
+
+    .devery:checked,
+    .atm:checked,
+    .credit-card:checked {
+        border: 1px solid red;
+        border-radius: 4px;
+
+        i {
+            color: red;
+        }
     }
 }
