@@ -1,0 +1,14 @@
+.header {
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    font-size: larger;
+}
+.end{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gray;
+    height: 8em;
+}

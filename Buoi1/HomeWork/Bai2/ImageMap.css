@@ -1,0 +1,61 @@
+img {
+    margin-left: 22em;
+    margin-top: 6em;
+    position: relative;
+}
+
+.vl {
+    position: relative;
+    border-left: 4px solid white;
+    height: 358px;
+    width: fit-content;
+    bottom: 22.6em;
+    left: 41.5em;
+}
+
+.hl {
+    position: relative;
+    border-bottom: 4px solid white;
+    width: 626px;
+    bottom: 34em;
+    left: 22em;
+}
+
+.subject {
+    background-color: white;
+
+    a {
+        border: 1px solid pink;
+        text-decoration: none;
+        width: fit-content;
+        background-color: pink;
+        padding-inline: 0.3em;
+    }
+
+    p {
+        position: absolute;
+        border: 1px solid black;
+        background-color: white;
+        width: fit-content;
+        padding: 1em;
+    }
+
+    #toan {
+        top: 9.5em;
+        left: 28em;
+    }
+
+    #li {
+        top: 9.5em;
+        left: 50em;
+    }
+
+    #hoa {
+        top: 21em;
+        left: 28em;
+    }
+    #av{
+        top: 21em;
+        left: 50em;
+    }
+}

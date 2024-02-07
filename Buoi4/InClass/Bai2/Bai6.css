@@ -1,0 +1,87 @@
+input,
+select {
+    margin-left: 2em;
+}
+
+label,
+input {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+label {
+    color: #FC6736;
+    margin-left: 1em;
+}
+
+h1,
+p {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background-image: url(pexels-eberhard-grossgasteiger-1287145.jpg);
+    background-repeat: no-repeat;
+    background-clip: initial;
+    background-position: center;
+    background-size: cover;
+}
+
+.id-room {
+    width: fit-content;
+    margin-left: 8.6em;
+
+    input {
+        margin-left: 0.5em;
+    }
+}
+
+.club {
+    width: fit-content;
+    margin-left: 7.9em;
+
+    label {
+        color: #643843;
+    }
+}
+
+.quantity {
+    width: fit-content;
+    margin-left: 8.45em;
+}
+
+#Coffe {
+    margin-left: 2.9em;
+}
+
+#opt {
+    margin-inline: 58px;
+    padding: 5px;
+}
+
+#id-customer {
+    margin-left: 0px;
+    width: 15%;
+}
+
+#place {
+    margin-right: 2.5em;
+}
+
+#request {
+    margin-left: 5.4em;
+    height: 4em;
+    width: 45%;
+}
+
+#submit {
+    margin-left: 20em;
+    padding: 2px;
+    border-color: green;
+}

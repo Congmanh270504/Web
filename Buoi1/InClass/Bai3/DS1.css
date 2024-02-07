@@ -1,0 +1,16 @@
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    width: fit-content;
+    padding-inline: 12px;
+    margin-inline: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: red;
+}
+.list{
+    color: blue;
+    padding-left: 12em;
+}

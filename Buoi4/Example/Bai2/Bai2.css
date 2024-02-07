@@ -1,0 +1,28 @@
+.content{
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+}
+.header{
+    line-height: 1.6;
+    padding: 10px;
+    button{
+       margin-top: 5px;
+    }
+}
+.main1{
+    border-top: 2px solid black ;
+    padding: 10px;
+    form{
+        display: flex;
+        
+    }
+}
+.footer{
+    line-height: 1.6;
+}
+#button1,#button2{
+    border-top: 1px solid black;
+    padding: 10px;
+
+}

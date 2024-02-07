@@ -1,0 +1,115 @@
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    width: fit-content;
+    padding-left: 1em;
+    background-color: red;
+    color: white;
+    margin: auto;
+    h1{
+      padding-left: 2em; 
+    }
+    h2{}
+}
+
+.content-inside {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 0.7em;
+    background-color: white;
+    color: black;
+    font-size: large;
+    padding-inline: 2em;
+
+    h2 {
+        color: red;
+    }
+
+    .search>i {
+        background-color: red;
+        color: white;
+        display: inline-flex;
+        height: 20px;
+        padding-top: 2px;
+    }
+}
+
+.step1 {
+    display: flex;
+    margin-top: -15px;
+
+    #find {
+        border: 1px solid red;
+        margin-left: 1em;
+        color: gray;
+    }
+
+    .bars {
+        border: 1px solid black;
+        background-color: gray;
+        color: white;
+    }
+
+    .bars>i {
+        color: white;
+    }
+}
+
+
+.step2 {
+    h3 {
+        color: red;
+        font-size: larger;
+        margin-top: auto;
+    }
+}
+
+.pay {
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    display: inline-flex;
+    height: 1.2em;
+    font-size: medium;
+    padding: 0.3em;
+}
+
+.buy-now {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    display: inline-flex;
+    height: 1.2em;
+    font-size: medium;
+    padding: 0.3em;
+    margin: auto;
+}
+
+.with-payment {
+    #buy-paylater {
+        text-transform: uppercase;
+        border: 1px solid red;
+        background-color: white;
+        color: red;
+        display: inline-flex;
+        height: 1.2em;
+        font-size: medium;
+        padding: 0.3em;
+    }
+
+    .time {}
+
+    .buy-now>h {
+        margin-left: 0.5em;
+    }
+
+    .month {
+        h{
+            margin-right: 7em;
+        }
+        .buy-now{
+            margin-left: 8em;
+            margin-inline: 0.4em;
+        }
+    }
+}

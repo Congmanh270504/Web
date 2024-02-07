@@ -1,0 +1,113 @@
+.content {
+    line-height: 1.6em;
+    box-sizing: border-box;
+    width: fit-content;
+
+    p {
+        font-size: x-large;
+    }
+}
+
+.header {
+    display: flex;
+
+    input[type='radio'] {
+        accent-color: red;
+    }
+
+    .truck {
+        margin-right: 1.16em;
+    }
+
+    .truck,
+    .home {
+        padding: 10px 12px;
+        background-color: #C7C8CC;
+        font-weight: bold;
+    }
+
+
+    .truck:hover,
+    .home:hover {
+        accent-color: red;
+        border: 2px solid red;
+        border-radius: 10px;
+        color: red;
+    }
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    form {
+        display: flex;
+    }
+
+    legend {
+        color: gray;
+    }
+
+    fieldset {
+        width: 17.2em;
+    }
+
+    select {
+        border: none;
+    }
+
+    input {
+        border: none;
+        outline: none;
+        width: 95%;
+    }
+
+    .must {
+        color: red;
+        font-size: small;
+    }
+
+    .first {
+        width: 13.4em;
+        margin-right: 1em;
+
+    }
+
+}
+
+.item-4 {
+    fieldset {
+        width: 33.5em;
+    }
+}
+
+.check {
+    #checkbox {
+        width: 2em;
+        height: 1.4em;
+    }
+
+    h {
+        font-size: large;
+        margin-inline: 5px;
+        position: absolute;
+    }
+}
+
+.comment {
+    fieldset {
+        border-radius: 10px;
+    }
+
+    legend {
+        color: gray;
+    }
+
+    textarea {
+        border: none;
+        outline: none;
+        width: 95%;
+        height: 10vh;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

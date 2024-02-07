@@ -1,0 +1,19 @@
+body{
+    background-color: #FFEAA7;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    color: whitesmoke;
+    text-align: left;
+}
+h3{
+    color: green;
+    text-align: right;
+}
+h4{
+    color: blue;
+    text-align: center;
+}

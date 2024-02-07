@@ -1,0 +1,36 @@
+table {
+    margin: auto;
+    border-style: outset;
+    width: 50%;
+}
+
+table,
+td,
+tr {
+    border: 3px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.list {
+    list-style: square;
+    list-style-image: url(favicon.ico);
+
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
+image {
+    align-items: center;
+}
