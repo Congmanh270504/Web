@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bai3.css">
+</head>
+
+<body>
+    <div class="content">
+        <p>Chọn địa chỉ nhận hàng </p>
+        <div class="header">
+            <div class="truck">
+                <i class="fa-solid fa-truck-fast"></i>
+                <label for="truck"> NHẬN HÀNG TẠI NHÀ</label>
+                <input type="radio" name="recipients" id="">
+            </div>
+            <div class="home">
+                <i class="fa-solid fa-house"></i>
+                <label for="truck"> NHẬN HÀNG TẠI TRUNG TÂM</label>
+                <input type="radio" name="recipients" id="">
+            </div>
+        </div>
+
+        <div class="item-1">
+            <form action="">
+                <fieldset class="first">
+                    <legend>Họ và tên <h class="must">(*)</h>
+                    </legend>
+                    <input type="text" name="" class="input">
+                </fieldset>
+                <fieldset>
+                    <legend>Số điện thoại <h class="must">(*)</h>
+                    </legend>
+                    <input type="text" name="" class="input">
+                </fieldset>
+            </form>
+        </div>
+
+
+        <div class="item-2">
+            <form action="">
+                <fieldset class="first">
+                    <legend>E-mail <h class="must">(*)</h>
+                    </legend>
+                    <input type="text" name="" class="input">
+                </fieldset>
+                <fieldset>
+                    <legend>Tỉnh/Thành Phố <h class="must">(*)</h>
+                    </legend>
+
+                    <select>
+                        <option selected>Chọn tỉnh/Thành phố của bạn</option>
+                        <option>TP.HCM</option>
+                        <option>Hà Nội</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+
+
+
+        <div class="item-3">
+            <form action="">
+                <fieldset class="first">
+                    <legend>Quận/Huyện <h class="must">(*)</h>
+                    </legend>
+                    <select>
+                        <option selected>Chọn Quận/Huyện</option>
+                        <option>Quận 1/TP.HCM</option>
+                        <option>Quận 2/TP.HCM</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Phường/Xã<h class="must">(*)</h>
+                    </legend>
+                    <select>
+                        <option selected>Chọn Phường/Xã</option>
+                        <option>Quận 1/TP.HCM</option>
+                        <option>Quận 2/TP.HCM</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+        <div class="item-4">
+            <fieldset>
+                <legend>Số nhà/Tên đường<h class="must">(*)</h>
+                </legend>
+                <input type="text" name="" id="input">
+            </fieldset>
+        </div>
+        <div class="check">
+            <p>
+                <input type="checkbox" id="checkbox">
+                <h>Sử dụng thông tin này để đăng ký tài khoản mua hàng! </h>
+            </p>
+        </div>
+        <div class="comment">
+            <fieldset>
+                <legend> Để lại lời nhắn cho <h style="color: red;">Công Mạnh</h> </legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+        </div>
+        <div class="payment">
+            <div class="devery">
+                <i class="fa-solid fa-money-bill"></i>
+                <label for=""> Thanh toán khi nhận hàng </label>
+                <input type="radio" name="" id="">
+            </div>
+            <div class="atm">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <label for=""> Thẻ ATM/Internet banking </label>
+                <input type="radio" name="" id="">
+            </div>
+            <div class="credit-card">
+                <i class="fa-solid fa-credit-card"></i>
+                <label for=""> Thẻ tín dụng </label>
+                <input type="radio" name="" id="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/966a9482a5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

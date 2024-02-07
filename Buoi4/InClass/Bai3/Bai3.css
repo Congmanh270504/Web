@@ -1,0 +1,130 @@
+.content {
+    line-height: 1.6em;
+    box-sizing: border-box;
+
+    p {
+        font-size: x-large;
+    }
+}
+
+.header {
+    display: flex;
+
+    input[type='radio'] {
+        accent-color: red;
+    }
+
+    .truck {
+        margin-right: 1.16em;
+    }
+
+    .truck,
+    .home {
+        width: 20%;
+        text-align: center;
+        padding: 10px 12px;
+        background-color: #C7C8CC;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+
+    .truck:hover,
+    .home:hover {
+        accent-color: red;
+        border: 2px solid red;
+        border-radius: 10px;
+        color: red;
+    }
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    form {
+        display: flex;
+    }
+
+    legend {
+        color: gray;
+    }
+
+    fieldset {
+        width: 23.6em;
+    }
+
+    select {
+        border: none;
+    }
+
+    input {
+        border: none;
+        outline: none;
+        width: 95%;
+    }
+
+    .must {
+        color: red;
+        font-size: small;
+    }
+
+    .first {
+        width: 23.5em;
+        margin-right: 1em;
+
+    }
+
+}
+
+.item-4 {
+    fieldset {
+        width: 50.05em;
+    }
+}
+
+.check {
+    #checkbox {
+        width: 2em;
+        height: 1.4em;
+    }
+
+    h {
+        font-size: large;
+        margin-inline: 5px;
+        position: absolute;
+    }
+}
+
+.comment {
+    fieldset {
+        border-radius: 10px;
+        width: 42.3%;
+    }
+
+    legend {
+        color: gray;
+    }
+
+    textarea {
+        border: none;
+        outline: none;
+        width: 95%;
+        height: 10vh;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+.payment {
+    display: flex;
+
+    .devery,
+    .atm,
+    .credit-card {
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 5px;
+        margin-top: 1em;
+        margin-right: 2em;
+    }
+}
