@@ -1,14 +1,26 @@
-#payment-header{
+#payment-header {
     color: gray;
     font-size: larger;
     margin: 1em 0em 0em;
 }
+
 .content {
     line-height: 1.6em;
     box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
+
+    border: 2px solid black;
+    padding: 10px;
+    background-image: url(hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: inherit;
 
     p {
         font-size: x-large;
+        text-align: center;
+        color: #E78895;
     }
 }
 
@@ -20,7 +32,7 @@
     }
 
     .home {
-        width: 23.9em;
+        width: 23.7em;
     }
 
     .truck {
@@ -31,6 +43,8 @@
     .truck,
     .home {
         text-align: center;
+        border: 1px solid #C7C8CC;
+
         padding: 10px 12px;
         background-color: #C7C8CC;
         font-weight: bold;
@@ -41,8 +55,9 @@
     .home:hover {
         accent-color: red;
         border: 1px solid red;
-        border-radius: 10px;
+        font-weight: bold;
         color: red;
+        transition-duration: 0.4s;
     }
 }
 
@@ -63,7 +78,9 @@
     }
 
     select {
+        outline: none;
         border: none;
+        font-size: medium;
     }
 
     input {
@@ -95,6 +112,7 @@
     #checkbox {
         width: 2em;
         height: 1.4em;
+        accent-color: red;
     }
 
     h {
@@ -130,7 +148,7 @@
     .atm,
     .credit-card {
         border: 1px solid black;
-        border-radius: 4px;
+        border-radius: 10px;
         padding: 5px;
         margin: 1em 2em 0.5em;
         accent-color: red;
@@ -140,11 +158,15 @@
         }
     }
 
+    i {
+        color: red;
+    }
+
     .devery:hover,
     .atm:hover,
     .credit-card:hover {
         border: 1px solid red;
-        border-radius: 4px;
+        border-radius: 10px;
 
         i {
             color: red;
@@ -160,5 +182,50 @@
         i {
             color: red;
         }
+    }
+}
+
+.accept-1,
+.accept-2,
+.accept-3 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 0.5em;
+    width: 42.1em;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-left: 0px;
+
+    input[type='checkbox'] {
+        accent-color: red;
+        width: 2em;
+        height: 1.4em;
+        border: 2px solid red;
+        border-radius: 10px;
+
+    }
+
+}
+
+.accept-1:hover,
+.accept-2:hover,
+.accept-3:hover {
+    border: 2px solid red;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.end {
+    display: flex;
+    background-color: #D04848;
+    width: 52em;
+    justify-content: center;
+
+    button {
+        background-color: #D04848;
+        border: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
