@@ -1,0 +1,32 @@
+.content {
+    border: 2px solid black;
+    width: 50%;
+
+}
+
+.header {
+    background-color: pink;
+    text-align: center;
+    height: 2em;
+    line-height: 1.6;
+}
+
+.name {
+    input {
+     height: 10vh;   
+    }
+}
+
+.address {}
+
+.name,
+.address,
+.header,
+.field,
+.language,
+.comment {
+    line-height: 1.6;
+    margin: 0.5em 1em;
+
+    
+}
