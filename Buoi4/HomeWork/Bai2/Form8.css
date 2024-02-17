@@ -1,53 +1,43 @@
-<<<<<<< HEAD
-body {}
 
 .content {
     border: 2px solid black;
     width: 30%;
     margin: auto;
-=======
-.content {
-    border: 2px solid black;
-    width: 50%;
 
->>>>>>> 0fa3cb271a4059ddc37fb84543e1fa37ec8d64ba
-}
+    .content {
+        border: 2px solid black;
+        width: 50%;
 
-.header {
-    background-color: pink;
-    text-align: center;
-    height: 2em;
-    line-height: 1.6;
-}
-
-.name {
-    input {
-<<<<<<< HEAD
-        height: 10vh;
-        width: 98%;
     }
-}
 
-.address {
-    select {
-        width: 100%;
+    .header {
+        background-color: pink;
+        text-align: center;
+        height: 2em;
+        line-height: 1.6;
     }
-}
 
-.comment {
-    textarea {
-        width: 99%;
-        height: 5em;
+    .name {
+        input {
+            height: 10vh;
+            width: 98%;
+        }
     }
-}
-=======
-     height: 10vh;   
+
+    .address {
+        select {
+            width: 100%;
+        }
     }
+
+    .comment {
+        textarea {
+            width: 99%;
+            height: 5em;
+        }
+    }
+
 }
-
-.address {}
->>>>>>> 0fa3cb271a4059ddc37fb84543e1fa37ec8d64ba
-
 .name,
 .address,
 .header,
@@ -56,7 +46,6 @@ body {}
 .comment {
     line-height: 1.6;
     margin: 0.5em 1em;
-<<<<<<< HEAD
 }
 
 .footer {
@@ -94,8 +83,6 @@ body {}
 h1 {
     color: red;
     text-align: center;
-=======
 
-    
->>>>>>> 0fa3cb271a4059ddc37fb84543e1fa37ec8d64ba
+
 }
