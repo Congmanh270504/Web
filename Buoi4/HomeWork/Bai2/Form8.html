@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form8.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            HỘP THƯ GÓP Ý
+        </div>
+        <div class="main">
+            <form action="">
+                <div class="name">
+                    <label for="name">Họ và tên</label><br>
+                    <input type="text" name="name" class="input"><br>
+                </div>
+                <div class="address">
+                    <label for="address">Hộ khẩu</label><br>
+                    <select name="address" class="input">
+                        <option value="TP.Hồ Chí Minh" selected>TP.Hồ Chí Minh</option>
+                        <option value="Tp.Hà Nội">Tp.Hà Nội</option>
+                        <option value="TP.Hải Phòng">TP.Hải Phòng</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="field"> Góp ý về lĩnh vực</label><br>
+                    <input type="radio" name="field"> <label for="">Dịch vụ</label>
+                    <input type="radio" name="field"> <label for="">Sản phẩm</label>
+                    <input type="radio" name="field"> <label for="">Khác</label>
+                </div>
+                <div class="language">
+                    <label for="">Ngôn ngữ</label><br>
+                    <input type="radio" name="language">
+                    <label for="">Anh</label>
+                    <input type="radio" name="language">
+                    <label for="">Việt</label>
+                </div>
+                <div class="comment">
+                    <label for="comment">Nội dung</label><br>
+                    <textarea name="comment" id=""></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <button type="button" id="send" onclick="send()">Gửi</button>
+            <button type="button" id="delete" onclick="abort()">Xóa</button>
+        </div>
+    </div>
+
+    <h1 id="getAnswer"></h1>
+
+    <script type="text/javascript" src="Form8.js"></script>
+
+</body>
+
+</html>

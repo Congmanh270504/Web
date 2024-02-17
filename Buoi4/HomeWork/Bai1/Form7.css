@@ -1,0 +1,29 @@
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    width: fit-content;
+}
+
+.header {
+    background-color: blue;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+input {
+    margin: 5px 0px;
+    width: 20em;
+    height: 1.5em;
+}
+
+input,
+label {
+    margin-inline: 1em;
+}

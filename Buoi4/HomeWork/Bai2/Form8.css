@@ -1,0 +1,81 @@
+body {}
+
+.content {
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+}
+
+.header {
+    background-color: pink;
+    text-align: center;
+    height: 2em;
+    line-height: 1.6;
+}
+
+.name {
+    input {
+        height: 10vh;
+        width: 98%;
+    }
+}
+
+.address {
+    select {
+        width: 100%;
+    }
+}
+
+.comment {
+    textarea {
+        width: 99%;
+        height: 5em;
+    }
+}
+
+.name,
+.address,
+.header,
+.field,
+.language,
+.comment {
+    line-height: 1.6;
+    margin: 0.5em 1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+#send {
+    background-color: red;
+    border: none;
+    width: 30%;
+    height: 5vh;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#delete {
+    background-color: blue;
+    width: 30%;
+    height: 5vh;
+
+    line-height: 1.6;
+    text-align: center;
+    border: none;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
