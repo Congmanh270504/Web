@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+<<<<<<< HEAD
         {
             "name": "Launch Chrome",
             "request": "launch",
@@ -18,5 +19,14 @@
         //     "url": "http://localhost:8080",
         //     "webRoot": "${workspaceFolder}"
         // }
+=======
+       
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "E:\\CMạnh\\Web\\Buoi4\\HomeWork\\Bai1\\Form1.html"
+        }
+>>>>>>> 0fa3cb271a4059ddc37fb84543e1fa37ec8d64ba
     ]
 }

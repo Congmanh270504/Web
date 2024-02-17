@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 body {}
 
 .content {
     border: 2px solid black;
     width: 30%;
     margin: auto;
+=======
+.content {
+    border: 2px solid black;
+    width: 50%;
+
+>>>>>>> 0fa3cb271a4059ddc37fb84543e1fa37ec8d64ba
 }
 
 .header {
@@ -15,6 +22,7 @@ body {}
 
 .name {
     input {
+<<<<<<< HEAD
         height: 10vh;
         width: 98%;
     }
@@ -32,6 +40,13 @@ body {}
         height: 5em;
     }
 }
+=======
+     height: 10vh;   
+    }
+}
+
+.address {}
+>>>>>>> 0fa3cb271a4059ddc37fb84543e1fa37ec8d64ba
 
 .name,
 .address,
@@ -41,6 +56,7 @@ body {}
 .comment {
     line-height: 1.6;
     margin: 0.5em 1em;
+<<<<<<< HEAD
 }
 
 .footer {
@@ -78,4 +94,8 @@ body {}
 h1 {
     color: red;
     text-align: center;
+=======
+
+    
+>>>>>>> 0fa3cb271a4059ddc37fb84543e1fa37ec8d64ba
 }
