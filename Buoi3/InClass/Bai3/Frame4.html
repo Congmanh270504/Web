@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .item1 {
+      grid-area: a;
+    }
+
+    .item2 {
+      grid-area: b;
+    }
+
+    .item3 {
+      grid-area: c;
+    }
+
+    .item4 {
+      grid-area: d;
+    }
+
+    .item5 {
+      grid-area: e;
+    }
+
+    .item6 {
+      grid-area: g;
+      line-height: 2.6;
+    }
+
+    .item7 {
+      grid-area: f;
+
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'a  b b '
+        'a c c  '
+        'd d g'
+        'e e g'
+        'f f f'
+      ;
+      gap: 10px;
+      background-color: green;
+      padding: 10px;
+      margin: auto;
+width: 50%;
+    }
+
+    .grid-container>div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+  </div>
+
+</body>
+
+</html>
