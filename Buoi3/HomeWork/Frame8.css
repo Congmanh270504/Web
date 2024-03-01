@@ -1,5 +1,4 @@
 .header {
-    text-align: center;
 
     h1 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -68,12 +67,11 @@
     background-color: #2196F3;
     padding: 10px;
     grid-template-rows: 6em;
-    grid-template-columns: 24em;
+    grid-template-columns: 20em;
 }
 
 .grid-container>div {
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
     padding: 20px 0;
     font-size: 30px;
 }
@@ -81,11 +79,64 @@
 .clock {
     border: 2px solid black;
     width: 4em;
-    color: white;
-    background-color: gray;
+    color: black;
+    background-color: white;
     margin: auto;
 }
-#find{
+
+.find {
     color: yellowgreen;
     text-transform: uppercase;
+    font-size: x-large;
+    text-align: center;
+}
+
+.first {
+    input {
+        width: 97%;
+        padding: 5px 2px;
+    }
+}
+
+.second {
+    #form {
+        width: 100%;
+        padding: 5px 2px;
+
+    }
+}
+
+.third {
+    #to {
+        width: 100%;
+        padding: 5px 2px;
+
+    }
+}
+
+#search {
+    float: right;
+    margin-top: 1em;
+}
+
+.menu {
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.menu-list {
+
+    li {
+        font-size: x-large;
+        border: 2px solid white;
+        list-style-position: inside;
+        background-color: green;
+        border-collapse: collapse;
+    }
+    ul {
+        border-left:1em solid yellow ;
+    }
 }
