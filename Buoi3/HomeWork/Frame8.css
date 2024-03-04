@@ -3,6 +3,7 @@
     h1 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
+        margin: 0;
     }
 
     img {
@@ -14,6 +15,7 @@
 
 .Header {
     grid-area: header;
+    text-align: center;
 
     ul {
         margin-top: 0.5em;
@@ -26,36 +28,60 @@
 
     li>a {
         text-decoration: none;
-
     }
+
+    li>a:active {
+        color: blue;
+    }
+
 }
 
-.Menu {
-    grid-area: menu;
+.grid-container>div {
+    background-color: #FFE7E7;
+    padding: 20px 0;
+    font-size: 30px;
 }
+
 
 .Left1 {
     grid-area: left1;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .Center1 {
     grid-area: center1;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .Right1 {
     grid-area: right1;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .Left2 {
     grid-area: left2;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .Center2 {
     grid-area: center2;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .Right2 {
     grid-area: right2;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.Menu {
+    background-color: gray !important;
+    grid-area: menu;
 }
 
 .grid-container {
@@ -65,18 +91,13 @@
         'menu left1 center1 right1 '
         'menu left2 center2 right2  '
     ;
-    gap: 10px;
-    background-color: #2196F3;
+    gap: 5px;
     padding: 10px;
-    grid-template-rows: 6em;
-    grid-template-columns: 20em;
+    grid-template-rows: 6em 28em;
+    grid-template-columns: 20em 31em 31em 31em;
 }
 
-.grid-container>div {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 0;
-    font-size: 30px;
-}
+
 
 .clock {
     border: 2px solid black;
@@ -119,6 +140,12 @@
 #search {
     float: right;
     margin-top: 1em;
+    margin-right: 1em;
+    padding: 2px;
+    font-size: medium;
+    font-family: auto;
+    border-radius: 5px;
+    background-color: #436850;
 }
 
 .menu {
@@ -133,17 +160,57 @@
 
     li {
         font-size: x-large;
-        border: 2px solid white;
+        border: 1px solid white;
         list-style-position: inside;
         background-color: green;
-        border-collapse: collapse;
+        padding-left: 1em;
     }
+
     ul {
-        border-left:1em solid yellow ;
+        border-left: 5px solid yellow;
+        padding-left: 0;
     }
 }
-#customer{
+
+.heading {
+    display: flex;
+    margin-left: 1em;
+
+    img {
+        margin-bottom: 2em;
+        width: 2em;
+        height: 1.5em;
+    }
+
+    h3 {
+        font-size: xx-large;
+        color: blue;
+    }
+}
+
+.cost {
+    color: blue;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 0.6;
+
+    h {
+        color: red;
+    }
+
+    img {
+        width: 160px;
+    }
+}
+
+#customer {
     font-size: xx-large;
     color: yellowgreen;
     text-align: center;
+}
+
+#frame {
+    position: fixed ;
+    bottom: 0;
+    right: 0;
 }
