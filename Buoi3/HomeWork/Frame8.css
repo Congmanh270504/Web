@@ -201,6 +201,9 @@
     img {
         width: 160px;
     }
+    a{
+        text-decoration: none;
+    }
 }
 
 #customer {
