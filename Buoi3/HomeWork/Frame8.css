@@ -2,11 +2,13 @@
 
     h1 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
     }
 
     img {
         width: 10em;
         height: 5em;
+        margin-left: 53em;
     }
 }
 
@@ -139,4 +141,9 @@
     ul {
         border-left:1em solid yellow ;
     }
+}
+#customer{
+    font-size: xx-large;
+    color: yellowgreen;
+    text-align: center;
 }
