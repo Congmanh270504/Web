@@ -81,12 +81,14 @@
         outline: none;
         border: none;
         font-size: medium;
+        background-color: transparent;
     }
 
     input {
         border: none;
         outline: none;
         width: 95%;
+        height: 3vh;
     }
 
     .must {
