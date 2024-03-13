@@ -1,0 +1,63 @@
+body {
+    background-color: pink;
+}
+
+.content {
+    h1 {
+        font-size: xx-large;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .main-content {
+        display: flex;
+    }
+}
+
+.left {
+    background-color: #B4B4B8;
+
+    img {
+        width: 28em;
+
+    }
+}
+
+.center {
+    background-color: #C7C8CC;
+
+    img {
+        width: 32em;
+    }
+}
+
+.right {
+    background-color: #E3E1D9;
+
+    img {
+        width: 30em;
+        height: 16em;
+    }
+}
+
+.left,
+.center,
+.right {
+    border: 1px solid gray;
+    padding-inline: 1em;
+    height: 33em;
+
+    h1 {
+        font-size: x-large;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
+.footer{
+    text-align: center;
+    clear: both;
+}

@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.content {
+    border: 3px solid blue;
+}
+
+.fruits {
+    float: left;
+    border: 2px solid gray;
+    margin: 5px;
+    width: 58%;
+    height: 25vh;
+    background-color: pink;
+
+    h1{
+        text-align: center;
+    }
+}
+
+.computers {
+    float: right;
+    border: 2px solid gray;
+    margin: 5px;
+    padding: 12px 6px;
+    width: 40%;
+    background-color: pink;
+    h1{
+        text-align: center;
+    }
+}
+
+.station {
+    clear: both;
+    border: 2px solid gray;
+    margin: 5px;
+    background-color: pink;
+
+    h1{
+        text-align: center;
+    }
+
+}

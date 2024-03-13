@@ -1,0 +1,12 @@
+*{
+    height: 600px;
+}
+.above {
+    background-color: red;
+    height: 30%;
+}
+
+.under{
+    background-color: green;
+    height: 70%;
+}
