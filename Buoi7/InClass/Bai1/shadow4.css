@@ -1,0 +1,23 @@
+.main {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 20vh;
+    box-shadow: 4px 5px 10px black;
+
+    h1 {
+        margin: 0;
+        background-color: green;
+        color: white;
+        height: 70%;
+        display: grid;
+        align-items: center;
+        font-size: 50px;
+    }
+
+    p {
+        margin: 15px 10px;
+    }
+}

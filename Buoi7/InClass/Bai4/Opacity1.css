@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 1em 2em;
+    transition: 2s;
+    img{
+        opacity: 0.5;
+    }
+}
+
+.main img:hover{
+    opacity: 1.0;
+}
