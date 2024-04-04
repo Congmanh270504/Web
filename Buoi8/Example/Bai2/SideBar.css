@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background-color: #00F;
+    width: 400px;
+    height: 130px;
+    display: block;
+margin: auto;
+
+    ul {
+
+        li {
+            border-bottom: 1px solid white;
+            min-height: 20px;
+            list-style: none;
+
+            a {
+                color: white;
+                text-transform: uppercase;
+                cursor: pointer;
+                text-decoration: none;
+                line-height: 0.5;
+                margin-top: 5px;
+                padding: 0px 20px ;
+            }
+        }
+    }
+
+    li:hover {
+        font-weight: bold;
+        background-color: #900;
+    }
+}

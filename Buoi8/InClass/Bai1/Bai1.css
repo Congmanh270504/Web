@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 45%;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        li {
+            list-style: none;
+            background-color: #00F;
+            padding: 10px 20px;
+
+            a {
+                color: white;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+
+    li:hover {
+        font-weight: bold;
+        background-color:orange;
+    }
+}
