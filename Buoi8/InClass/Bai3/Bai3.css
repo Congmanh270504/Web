@@ -11,7 +11,6 @@
 
     ul {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         margin: 20px auto;
 
@@ -20,6 +19,8 @@
             background-color: #00F;
             margin-top: 10px;
             height: 30px;
+            margin-inline: 5px;
+            align-content: center;
 
             a {
                 color: white;
@@ -37,12 +38,11 @@
         display: none;
         position: absolute;
         top: 149px;
-        left: 150px;
+        left: 300px;
         height: 50px;
 
         li {
-            background-color: #454545;
-            border-bottom: 3px solid #fff;
+            background-color: #90F;
             margin-top: -3px;
 
             a {
@@ -51,17 +51,27 @@
         }
 
     }
-
-
 }
 
 .submenu.second {
-    top: 81px;
+    top: 43px;
+    li{
+        width: 200px;
+    }
+    li:hover{
+        background-color: #0CF;
+    }
 }
 
 .submenu.thirth {
-    top: 0;
-    left: 147px;
+    top: -18px;
+    left: 190px;
+    width: 100%;
+
+}
+
+.submenu.thirth.two {
+    left: 180px;
 
 }
 
