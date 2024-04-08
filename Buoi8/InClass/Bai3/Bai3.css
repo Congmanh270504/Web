@@ -21,6 +21,7 @@
             height: 30px;
             margin-inline: 5px;
             align-content: center;
+            padding-inline: 1em;
 
             a {
                 color: white;
@@ -38,7 +39,7 @@
         display: none;
         position: absolute;
         top: 149px;
-        left: 300px;
+        left: 364px;
         height: 50px;
 
         li {
@@ -55,10 +56,13 @@
 
 .submenu.second {
     top: 43px;
-    li{
+
+    li {
         width: 200px;
+        padding-inline: 0;
     }
-    li:hover{
+
+    li:hover {
         background-color: #0CF;
     }
 }

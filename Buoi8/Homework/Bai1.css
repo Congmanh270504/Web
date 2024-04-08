@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 30%;
+}
+button
+{
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+.above{
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    align-self: center;
+    text-align: center;
+}
+.product .text .cost{
+    color: #FFC700;
+    font-size: large;
+   
+    b{
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,90 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+
+    p {
+        width: 17em;
+    }
+}
+img{
+    width: 100%;
+}
+table {
+    margin: auto;
+}
+
+table,
+td {
+    background: linear-gradient(to right,#80BCBD,#AAD9BB);
+    border: 1px solid brown;
+    border-collapse: collapse;
+}
+
+.product-1-above {
+    position: relative;
+
+}
+
+.cost {
+    color: red;
+}
+
+.product-1-below {
+    font-size: x-large;
+    display: grid;
+
+    .star {
+        color: #FDE767;
+        display: inline;
+        font-size: large;
+    }
+
+    #star-5 {
+        color: gray;
+    }
+
+    h,
+    p {
+        font-weight: bold;
+    }
+
+}
+
+.banner-sale {
+    position: absolute;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background: linear-gradient(to right, #FFA447, red);
+    color: #fff;
+    width: fit-content;
+    bottom: 9px;
+    left: 1em;
+    font-size: xx-large;
+
+    i {
+        color: white;
+        border: 1px solid #FFA447;
+        background-color: red;
+        border-radius: 10px;
+    }
+
+}
+
+.banner-sale-2 {
+    position: absolute;
+    width: fit-content;
+    bottom: 6px;
+    left: 25px;
+    background-color: #FFA447;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.no-star {
+    position: relative;
+    top: 1em;
+    font-size: xx-large;
+    margin-top: auto;
+    font-size: x-large;
+
+}
