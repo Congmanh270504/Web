@@ -1,29 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    width: 30%;
+
+img {
+    width: 50%;
 }
-button
-{
+
+button {
     text-transform: uppercase;
     padding: 0.5em;
+    cursor: pointer;
 }
-.above{
+
+.content {
+    margin-top: 1em;
+    align-items: center;
+}
+
+.above,
+.below {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
-.product{
+
+.product {
     align-self: center;
     text-align: center;
 }
-.product .text .cost{
+
+.product .text .cost {
     color: #FFC700;
     font-size: large;
-   
-    b{
+
+    b {
         text-decoration: underline;
+    }
+}
+
+.below {
+    margin-top: 1em;
+
+    #img1 {
+        margin-inline: 102px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    #img2 {
+        margin-inline: 86px;
+
+        img {
+
+            width: 85%;
+        }
     }
 }
