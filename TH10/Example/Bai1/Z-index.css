@@ -1,0 +1,36 @@
+.red{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #f00;
+    line-height: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+  }
+  .green{
+    margin-left: 90px;
+    margin-top: -40px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #3c0;
+    line-height: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  .blue{
+    margin-left: 130px;
+    margin-top: -40px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: #00f;
+    line-height: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }

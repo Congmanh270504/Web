@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    clear: both;
+    background-color: greenyellow;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    background-color: gray;
+    height: 440px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left ul li {
+    padding: 10px;
+    height: 50px;
+    border-bottom: 1px solid white;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.left ul li a:hover {
+    background-color: green;
+}
+
+.content {
+    float: left;
+    width: 50%;
+    background-color: white;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content h1 {
+    margin-top: 20px;
+}
+
+.content img {
+    width: 150px;
+    height: 100%;
+}
+
+.content a {
+    color: black;
+    font-weight: bold;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 20px;
+}
+
+.floatright {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    margin-block: 20px;
+}
+
+.right {
+    float: left;
+    width: 26%;
+    background-color: blue;
+    height: 440px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.right h4 {
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+
+.right p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.right table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.right table td {
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    clear: both;
+    background-color: lightgray;
+    padding: 3px;
+    margin-top: 20px;
+    text-align: center;
+}

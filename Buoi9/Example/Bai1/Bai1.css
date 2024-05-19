@@ -5,7 +5,6 @@
 }
 
 div {
-    border: 1px solid;
     margin-bottom: 1em;
     text-align: center;
     text-shadow: 2px 2px 10px;
@@ -13,6 +12,8 @@ div {
 }
 
 .header {
+    border: 1px solid;
+
     height: 15vh;
     padding-top: 3em;
     color: red;
@@ -20,6 +21,8 @@ div {
 }
 
 .header-link {
+    border: 1px solid;
+
     color: red;
     border-color: black;
     height: 5vh;
@@ -28,6 +31,8 @@ div {
 }
 
 .main {
+    border: 1px solid;
+
     display: flex;
     justify-content: space-between;
     border: none;
@@ -45,6 +50,8 @@ div {
     justify-content: center;
     color: red;
     border-color: black;
+    border: 1px solid black;
+
 }
 
 .content {
@@ -55,6 +62,8 @@ div {
     justify-content: center;
     color: red;
     border-color: black;
+    border: 1px solid black;
+
 }
 
 .right {
@@ -66,6 +75,8 @@ div {
     justify-content: center;
     color: red;
     border-color: black;
+    border: 1px solid black;
+
 }
 
 .footer {
@@ -75,4 +86,7 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
+
 }
+
